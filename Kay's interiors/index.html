@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kay's Interiors</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <nav>
+        <header>KAY'S INTERIORS</header>
+        <button class="nav-list-btn" onclick="openList()"><img src="./images/nav-btn.png"></button>
+        <ul class="desktop">
+            <li><a class="active" href="../index.html">HOME</a></li>
+            <li><a href="./html/about.html">ABOUT</a></li>
+            <li><a href="./html/project.html">PROJECT</a></li>
+            <li><a href="./html/shop.html">SHOP</a></li>
+            <li><a href="./html/contact.html">CONTACT</a></li>
+        </ul>
+        <div class="mobile">
+            <ul class="nav-list">
+                <li><a class="active" href="../index.html">HOME</a></li>
+                <li><a href="./html/about.html">ABOUT</a></li>
+                <li><a href="./html/project.html">PROJECT</a></li>
+                <li><a href="./html/shop.html">SHOP</a></li>
+                <li><a href="./html/contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="index-background">  
+        <div class="row">
+            <div class="left">
+                <h1>KAY’S</h1>
+                <p>Elevate your space with timeless elegance and personalized design – where every corner tells a unique story."</p>
+            </div>
+            <div class="right">
+                <img id="imageContainer1" src="./images/home-1.png">
+                <img id="imageContainer2" src="./images/home-2.png">
+                <img id="imageContainer3" src="./images/home-3.png">
+            </div>
+            <button id="shiftButton" onclick="shift()"><img src="./images/arrow.png"></button>
+        </div>
+    </div>
+</body>
+<script src="./js/nav-list.js"></script>
+<script src="./js/imageShifter.js"></script>
+</html>

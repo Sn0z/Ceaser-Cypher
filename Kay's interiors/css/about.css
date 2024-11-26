@@ -1,0 +1,199 @@
+#container{
+    width: 100%;
+}
+h1{
+    z-index: 1000;
+    font-weight: 800;
+    font-size: 32px;
+    font-family: 'Khula';
+    padding: 20px 10px 0 ;
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: fit-content;
+    text-align: center;
+    margin-left: auto; 
+    margin-right: auto;
+}
+.header{
+    margin: 90px 0 40px ;
+}
+.space{
+    width: 100%;
+    height: auto;
+    top: 0;
+    position: absolute;
+}
+.space img{
+    width: 100%;
+}
+.row{
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin-top: 55%;
+    margin-bottom: 70px;
+    position: relative;
+}
+.pfp{
+    width: 100%;
+}
+.creators{
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.profile{
+    text-align: center;
+    margin: 10px;
+    padding: 30px;
+    width: 20%;
+}
+.profile h3{
+    font-size: 20px;
+}
+.profile p{
+    width: 300;
+    font-size: 15px;
+}
+.about{
+    width: 100%;
+    padding: 20px;
+    display: inline-flex;
+    gap: 20px;
+}
+span{
+    font-weight: 800;
+}
+.left{
+    width: 35%;
+}
+.left img{
+    width: 100%;
+}
+.right{
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+p{
+    font-size: 20px;
+}
+@media only screen and (max-width: 1200px) and (min-width: 426px){
+    h1{
+        font-size: 24px;
+    }
+    .about{
+        width: 100%;
+        padding: 20px 0px;
+        display: inline-flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .left{
+        width: 50%;
+    }
+    .left img{
+        width: 100%;
+    }
+    .right{
+        width: 90%;
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 426px){
+    .about-head{
+        display: none;
+    }
+    h1{
+        z-index: 1000;
+        font-weight: 800;
+        font-size: 24px;
+        font-family: 'Khula';
+        padding: 20px 10px 0 ;
+        border: 1px solid black;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: fit-content;
+        text-align: center;
+        margin-left: auto; 
+        margin-right: auto;
+    }
+    .header{
+        margin: 0px 0 0px ;
+    }
+    .space{
+        position: relative;
+    }
+    .space img{
+        width: 100%;
+    }
+    .row{
+        font-size: 10px;
+        padding: 10px;
+        color: white;
+        background-color: black;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 10px;
+        position: relative;
+    }
+    .pfp{
+        width: 100%;
+    }
+    .creators{
+        width: 100%;
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .profile{
+        text-align: center;
+        margin: 10px;
+        padding: 30px;
+        width: 50%;
+    }
+    .profile h3{
+        font-size: 15px;
+    }
+    .profile p{
+        width: 300;
+        font-size: 10px;
+    }
+    .about{
+        width: 100%;
+        padding: 20px 0px;
+        display: inline-flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    span{
+        font-weight: 800;
+    }
+    .left{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .left img{
+        width: 60%;
+    }
+    .right{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    p{
+        width: 300px;
+        font-size: 10px;
+    }
+}

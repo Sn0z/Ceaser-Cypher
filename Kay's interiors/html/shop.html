@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kay's Interiors</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/shop.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <nav>
+        <header>KAY'S INTERIORS</header>
+        <button class="nav-list-btn" onclick="openList()"><img src="../images/nav-btn.png"></button>
+        <ul class="desktop">
+            <li><a href="../index.html">HOME</a></li>
+            <li><a href="../html/about.html">ABOUT</a></li>
+            <li><a href="../html/project.html">PROJECT</a></li>
+            <li><a class="active" href="../html/shop.html">SHOP</a></li>
+            <li><a href="../html/contact.html">CONTACT</a></li>
+        </ul>
+        <div class="mobile">
+            <ul class="nav-list">
+                <li><a href="../index.html">HOME</a></li>
+                <li><a href="../html/about.html">ABOUT</a></li>
+                <li><a href="../html/project.html">PROJECT</a></li>
+                <li><a class="active" href="../html/shop.html">SHOP</a></li>
+                <li><a href="../html/contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="background">
+        <img class="store-background" src="../images/store-background.png">
+        <h1 class="header">DECOR</h1>
+        <div class="container">
+            <div class="row">
+                <div class="left">
+                    <img class="main-img-1" src="../images/shop-1.png">
+                    <h2>vinyl set <button><img class="more" onclick="showPopUP()" src="../images/more.png"></button></h2>
+                    <h3>NRS.25,000 - 50,000</h3>
+                </div>
+                <div class="right">
+                    <div class="top">
+                        <p>
+                            A <span>vinyl player</span> isn't just a music device—it's a style statement.
+                            With vintage charm and timeless elegance, it adds character to any space.
+                            Beyond aesthetics, vinyl players offer a chance for artistic expression, 
+                            showcasing visually stunning album covers and labels. Audiophiles appreciate 
+                            the superior sound quality, contributing to a multi-sensory experience. 
+                            Customizable in design and color, vinyl players seamlessly blend with 
+                            existing decor. Placed strategically, they become conversation starters, 
+                            inviting guests to share in the nostalgia and love for music. For those 
+                            with a personal connection to vinyl, it's a meaningful and sentimental 
+                            addition to home decor, carrying stories and memories.
+                        </p>
+                    </div>
+                    <div class="bottom">
+                        <img class="options-1" src="../images/round-1.png">
+                        <img class="options-1" src="../images/round-2.png">
+                        <img class="options-1" src="../images/round-3.png">
+                    </div>
+                </div>
+            </div>
+            <div class="gap"></div>
+            <div class="row">
+                <div class="left">
+                    <img class="main-img-2" src="../images/shop-2.png">
+                    <h2>Custom rug</h2>
+                    <h3>NRS.50,000 - 100,000</h3>
+                </div>
+                <div class="right">
+                    <div class="holder">
+                        <img class="options-2" src="../images/round-4.png">
+                        <img class="options-2" src="../images/round-5.png">
+                        <img class="options-2" src="../images/round-6.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<div class="pop-up">
+    <h2>vinyl set </h2>
+    <button><img class="more" onclick="closePopUP()" src="../images/more.png"></button>
+    <p>
+        A <span>vinyl player</span> isn't just a music device—it's a style statement.
+        With vintage charm and timeless elegance, it adds character to any space.
+        Beyond aesthetics, vinyl players offer a chance for artistic expression, 
+        showcasing visually stunning album covers and labels. Audiophiles appreciate 
+        the superior sound quality, contributing to a multi-sensory experience. 
+        Customizable in design and color, vinyl players seamlessly blend with 
+        existing decor. Placed strategically, they become conversation starters, 
+        inviting guests to share in the nostalgia and love for music. For those 
+        with a personal connection to vinyl, it's a meaningful and sentimental 
+        addition to home decor, carrying stories and memories.
+    </p>
+</div>
+<script src="../js/nav-list.js"></script>
+<script src="../js/pop-up.js"></script>
+<script src="../js/imageChanger.js"></script>
+</html>

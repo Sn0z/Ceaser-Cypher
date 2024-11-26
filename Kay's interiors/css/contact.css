@@ -1,0 +1,191 @@
+body{
+    background-color: #F6F6F6;
+}
+img{
+    opacity: 35%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+}
+.header{
+    font-weight: 800;
+    font-size: 32px;
+    font-family: 'Khula';
+    padding: 0 10px;
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: fit-content;
+    margin: 70px;
+    text-align: center;
+    margin-left: auto; 
+    margin-right: auto;
+}
+textarea{
+    margin-top: 100px;
+    background-color: white;
+    font-size: 20px;
+    display: flex;
+    width: 1150px;
+    height: 280px;
+    padding: 30px;
+    position: relative;
+    resize: none;
+}
+button{
+    text-shadow: 0px 5px 3px grey;
+    cursor: pointer;
+    margin: 60px 120px;
+    padding: 10px 60px;
+    font-size: 32px;
+    background-color: white;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+}
+.row{
+    max-width: 500px;
+    margin-bottom: 50px;
+}
+#double-row{
+    display: inline-flex;
+    gap: 120px;
+}
+ul{
+    font-size: 20px;
+    margin-left: 35px ;
+}
+li{
+    cursor: pointer;
+   color: #3D7FFD; 
+}
+p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+@media only screen and (max-width: 1200px) and (min-width: 426px){
+    .header{
+        padding: 0 10px;
+        border: 1px solid black;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: fit-content;
+        margin: 40px;
+        text-align: center;
+        margin-left: auto; 
+        margin-right: auto;
+    }
+    textarea{
+        margin-top: 20px;
+        background-color: white;
+        font-size: 12px;
+        display: flex;
+        width: 350px;
+        height: 120px;
+        padding: 10px;
+    }
+    button{
+        margin: 20px 120px;
+        padding: 10px 30px;
+        font-size: 24px;
+    }
+    .row{
+        width: 320px;
+        margin-bottom: 10px;
+    }
+    #double-row{
+        display: inline-flex;
+        gap: 120px;
+    }
+    ul{
+        font-size: 12px;
+        margin-left: 20px ;
+    }
+    li{
+        cursor: pointer;
+       color: #3D7FFD; 
+    }
+    h1{
+        font-size: 24px;
+    }
+    p{
+        margin-top: 2px;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 426px){
+    .background{
+        content: url(../images/mobile-contact-background.png);
+    }
+    img{
+        opacity: 35%;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        z-index: 0;
+    }
+    .header{
+        font-weight: 800;
+        font-size: 24px;
+        font-family: 'Khula';
+        padding: 0 10px;
+        border: 1px solid black;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: fit-content;
+        margin: 20px;
+        text-align: center;
+        margin-left: auto; 
+        margin-right: auto;
+    }
+    textarea{
+        margin-top: 20px;
+        background-color: white;
+        font-size: 12px;
+        display: flex;
+        width: 350px;
+        height: 120px;
+        padding: 10px;
+    }
+    button{
+        margin: 8px 30px;
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        align-items: center;
+    }
+    .row{
+        width: 320px;
+        margin-bottom: 10px;
+    }
+    #double-row{
+        display: inline-flex;
+        gap: 120px;
+    }
+    ul{
+        font-size: 12px;
+        margin-left: 20px ;
+    }
+    li{
+        cursor: pointer;
+       color: #3D7FFD; 
+    }
+    h1{
+        font-size: 24px;
+    }
+    p{
+        margin-top: 2px;
+        font-size: 12px;
+    }
+}

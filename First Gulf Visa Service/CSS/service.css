@@ -1,0 +1,82 @@
+.about-img{
+    margin-top: -5px;
+    width: 100%;
+}
+.about-img img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+h5{
+    width: 100%;
+    top: 200px;
+    color: #fff;
+    text-decoration: underline;
+    font-family: "Oswald", sans-serif;
+    position: absolute;
+    text-align: center;
+    font-size: 64px;
+}
+.about-p{
+    width: 100%;
+    top: 300px;
+    color: #fff;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    position: absolute;
+    z-index: 1;
+}
+.about{
+    margin: 60px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+h2{
+    font-family: "Oswald", sans-serif;
+    font-size: 32px;
+}
+.home-service{
+    width: 100%;
+    text-align: center;
+}
+
+.container{
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.box{
+    display: flex;
+    padding: 20px;
+    margin: 5px;
+    width: 250px;
+    height: 280px;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 25px;
+}
+
+.service-header{
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    font-family: "Oswald", sans-serif;
+
+}
+.box img{
+    width: 120px;
+    height: 120px;
+}
